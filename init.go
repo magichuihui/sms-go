@@ -5,5 +5,5 @@ package sdk
 // Package sdk imports all sub packages to build all of them when calling `go install', `go build'
 // or `go get' commands.
 import (
-        - "github.com/magichuihui/sms-go/baidu"
+        _ "github.com/magichuihui/sms-go/baidu"
 )
