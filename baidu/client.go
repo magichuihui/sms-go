@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	DEFAULT_SERVICE_DOMAIN = "https://sms." + bce.DEFAULT_REGION + ".baidubce.com"
+	DEFAULT_SERVICE_DOMAIN = "https://smsv3." + bce.DEFAULT_REGION + ".baidubce.com"
 )
 
 type Client struct {
